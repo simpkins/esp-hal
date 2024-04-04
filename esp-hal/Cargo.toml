@@ -58,8 +58,8 @@ esp32c3 = { git = "https://github.com/esp-rs/esp-pacs", rev = "a8a8340", feature
 esp32c6 = { git = "https://github.com/esp-rs/esp-pacs", rev = "a8a8340", features = ["critical-section", "rt"], optional = true }
 esp32h2 = { git = "https://github.com/esp-rs/esp-pacs", rev = "a8a8340", features = ["critical-section", "rt"], optional = true }
 esp32p4 = { git = "https://github.com/esp-rs/esp-pacs", rev = "a8a8340", features = ["critical-section", "rt"], optional = true }
-esp32s2 = { git = "https://github.com/esp-rs/esp-pacs", rev = "a8a8340", features = ["critical-section", "rt"], optional = true }
-esp32s3 = { git = "https://github.com/esp-rs/esp-pacs", rev = "a8a8340", features = ["critical-section", "rt"], optional = true }
+esp32s2 = { git = "https://github.com/simpkins/esp-pacs", rev = "23fad96cf", features = ["critical-section", "rt"], optional = true }
+esp32s3 = { git = "https://github.com/simpkins/esp-pacs", rev = "23fad96cf", features = ["critical-section", "rt"], optional = true }
 
 [target.'cfg(target_arch = "riscv32")'.dependencies]
 esp-riscv-rt = { version = "0.7.0", path = "../esp-riscv-rt" }
